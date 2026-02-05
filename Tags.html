@@ -1,9 +1,41 @@
 <html>
     <head>
+        <style>
+            ol{
+                color: rebeccapurple;
+            
+            }
+            li{
+                color: saddlebrown;
+            }
+            body{
+                background-color: antiquewhite;
+            }
+            hr{
+                color: black;
+            }
+            h2{
+                margin-bottom:10px ;
+                color: #333;
+            }
+            .page{
+                   display: flex;
+            }
+            .ingredients{
+                background: #f9f9f9;
+                padding: 20px;
+                border-left: 6px solid #8b5cf6;
+            }
+            .recipe{
+                     margin-bottom:  10px;
+            }
+        </style>
         <title>Ordered & Unordered List</title>
         <body>
-            <ol>
-                <li>Add Flour</li>
+            <div class="page">
+            <div class="recipe"></div>
+            <ol><h2><b>🍽️Recipe :</b><h2></h2>
+                <h3><li>Add Flour</li>
                 <li>Beat eggs</li>
                 <ul type="disc">
                     <li>Whip eggs with whip thingy</li>
@@ -12,14 +44,17 @@
                 </ul>
                 <li>Stir in eggs</li>
                 <li>Stir in milk</li><br>
-        <ol>Ingredients :
+                <hr></h3>
+        <div class="ingredients">
+        <h2><b> 🥣Ingredients :</b></h2> 
                 <ul type ="circle">
-                    <li>Flour</li>
+                   <h3> <li>Flour</li>
                     <li>Two eggs</li>
                     <li>1 Cup milk</li>
-                </ul>
-         </ol>
+                </ul></h3>
             </ol>
+            </div>
+        </div>
         </body>
     </head>
 </html>
