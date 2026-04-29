@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Development Experiments</title>
+
+<style>
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar{
+    width: 220px;
+    height: 100vh;
+    background: #0e1a26;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.sidebar h2{
+    color:rgb(241, 248, 251);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar a{
+    display: block;
+    color: antiquewhite;
+    padding: 12px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar a:hover{
+    background: #34495e;
+}
+
+.main{
+    margin-left: 220px;
+    height: 100vh;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="sidebar">
+    <h2>Experiments</h2>
+
+    <a href="Webpage.html" target="content">Experiment 1</a>
+    <a href="Text_formatting.html" target="content">Experiment 2</a>
+    <a href="Tags.html" target="content">Experiment 3</a>
+    <a href="Image.html" target="content">Experiment 4</a>
+    <a href="frames.html" target="content">Experiment 5</a>
+    <a href="Link.html" target="content">Experiment 6</a>
+    <a href="table.html" target="content">Experiment 7</a>
+    <a href="Registeration_Form.html" target="content">Experiment 8</a>
+    <a href="Resume.html" target="content">Experiment 9</a>
+    <a href="Books.xml" target="content">Experiment 10</a>
+    <a href="cat_output.htm" target="content">Experiment 11</a>
+    <a href="students_output.htm" target="content">Experiment 12</a>
+</div>
+
+<div class="main">
+    <iframe name="content" src="Webpage.html"></iframe>
+</div>
+
+</body>
+</html>
